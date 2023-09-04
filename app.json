@@ -1,37 +1,28 @@
 {
-  "name": "Video Sticker Bot",
-  "description": "Telegram bot to convert videos/gifs to video sticker",
-  "logo": "https://telegra.ph/file/183c733fbf8d2dc4351a7.jpg",
+  "name": "Force Subscribing Bot",
+  "description": "Telegram bot to force users to subscribe a particular chat",
+  "logo": "https://telegra.ph/file/317f37f33c0055bfb34d6.jpg",
   "keywords": [
     "telegram",
     "bot",
     "python",
     "pyrogram"
   ],
-    "buildpacks": [
-      {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-      },
-      {
-        "url": "heroku/python"
-      }
-    ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  },
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-  "repository": "https://github.com/StarkBotsIndustries/",
+        {
+            "plan": "heroku-postgresql"
+        }
+    ],
+  "repository": "https://github.com/zzzdevo/instadown",
   "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
@@ -47,13 +38,13 @@
       "required": true,
       "value": ""
     },
-    "LOG_CHAT": {
-      "description": "Telegram Chat ID for logging purposes",
-      "required": true,
-      "value": ""
-    },
     "OWNER_ID": {
-      "description": "Your Telegram ID",
+      "description": "Fill Start Img url below",
+      "required": true,
+      "value": "https://te.legra.ph/file/8bbedf9bf159b4da138fd.jpg"
+    },
+    "LOG_CHAT": {
+      "description": "Add username/id of a channel/group",
       "required": false,
       "value": ""
     }
