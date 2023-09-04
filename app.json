@@ -16,7 +16,7 @@
             "plan": "heroku-postgresql"
         }
     ],
-  "repository": "https://github.com/zzzdevo/instadown",
+  "repository": "https://github.com/StarkBotsIndustries/",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
