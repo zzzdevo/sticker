@@ -30,7 +30,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/StarkBotsIndustries/",
+  "repository": "https://github.com/zzzdevo/sticker",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
