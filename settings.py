@@ -1,6 +1,6 @@
 # Project Settings
 
-START = "convert GIFs and Videos to Video Stickers and create their Sticker Packs specific to you!"
+START = "گۆڕینی ڤیدیۆ و گیف بۆ ستیکەر"
 
 HELP = """
 I can convert GIFs and Videos to Video Stickers. Just send me the sticker and I'll do the rest for you. 
